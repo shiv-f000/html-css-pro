@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login Form</title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(45deg,black,darkred,darkgreen);
+			text-align:center;
+			color: white;
+		}
+		fieldset{
+			width: 320px;
+			height: 520px;
+			margin: auto;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			border-top: 3px solid white;
+			border-left:1px solid #B2B1B1;
+			border-right:1px solid #B2B1B1;
+			border-bottom: 3px solid white;
+			border-radius: 10px;
+
+		}
+		fieldset>legend{
+			color: white;
+		}
+		h1{
+			font-size: 24px;
+		}
+		img{
+			background-color: white;
+			width: 60px;
+			height: 60px;
+			border: 1px solid rgba(200, 0, 0, 0.3);
+			border-radius: 50%;
+			box-shadow: 1px 1px rgba(200, 0, 0, 0.3);
+		}
+		table{
+			width: 100%;
+		}
+		input[type="text"],input[type="number"],input[type="password"],
+		input[type="email"],select,option{
+			color: white;
+			outline: none;
+			border: none;
+			width: 300px;
+			background: rgba(40,0,0,0.1);
+			height: 30px;
+			border-bottom: 2px solid white;
+			font-size: 18px;	
+
+		}
+		::placeholder{
+			color: rgb(80, 0, 0);
+		}
+		input[type="text"]:focus,input[type="number"]:focus,input[type="password"]:focus,
+		input[type="email"]:focus,select:focus{
+			background-color: rgb(20, 0, 0);
+			box-shadow: 0 0 40px darkred;
+
+		}
+input[type="submit"]{
+			padding: 10px;
+			color: white;
+			font-size: 20px;
+			font-style: bold;
+			border: none;
+			width: 300px;
+			background: rgba(40,0,0,0.2);
+			/*height: 30px;*/
+
+			
+}
+		
+	</style>
+</head>
+<body>
+	<fieldset align="center">
+		<legend><img src="../../images/avatar.svg"></legend>
+		<h1>Login Here</h1>
+		<form>
+		<table cellspacing="25px">
+			<tr><td><input type="text" name="" placeholder="User Name"></td></tr>
+			<tr><td><input type="email" name="" placeholder="Email"></td></tr>
+			<tr><td><input type="password" name="" placeholder="Password"></td></tr>
+			<tr><td><input type="number" name="" placeholder="Moblile Numaber"></td></tr>
+			<tr><td><select>
+				<option>select Designation</option>
+				<option>manager</option>
+				<option>Teacher</option>
+				<option>CEO</option>
+			</select></td></tr>
+			<tr><td><input type="submit" name=""></td></tr>
+		</table>
+		</form>
+	</fieldset>
+
+</body>
+</html>
